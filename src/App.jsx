@@ -2,6 +2,7 @@ import './App.scss';
 
 import todosFromServer from './api/todos.json';
 import usersFromServer from './api/users.json';
+// eslint-disable-next-line import/no-cycle
 import { TodoList } from './components/TodoList/TodoList';
 
 function getUserById(userId) {
